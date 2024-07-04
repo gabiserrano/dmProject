@@ -514,4 +514,5 @@ public class Personaje {
     public void setEnUso(boolean enUso) {
         this.enUso = enUso;
     }
+
 }

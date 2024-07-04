@@ -4,7 +4,6 @@ import Cartas.Carta;
 import Cartas.CartaEspecial;
 import Mediator.GameMediator;
 import Observer.Observer;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -267,5 +266,4 @@ public class Player implements Observer, Players {
         return mediator;
     }
 }
-
 
