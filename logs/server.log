@@ -1,0 +1,454 @@
+[2025-11-23T06:00:28.259Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:00:28.263Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:00:28.266Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:00:28.267Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:00:28.268Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:00:28.269Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:00:28.270Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:00:28.271Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:00:28.278Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:01:59.680Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:01:59.686Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:01:59.690Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:01:59.692Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:01:59.694Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:01:59.696Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:01:59.699Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:01:59.702Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:01:59.718Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:02:00.699Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:02:00.706Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:02:00.710Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:02:00.713Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:02:00.716Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:02:00.719Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:02:00.721Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:02:00.725Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:02:00.738Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:19:23.473Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:19:23.476Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:19:23.478Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:19:23.479Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:19:23.480Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:19:23.481Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:19:23.482Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:19:23.483Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:19:23.488Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:25:57.524Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:25:57.527Z] [ERROR] Error al verificar rate limiting {"error":"no such table: login_attempts"}
+[2025-11-23T06:25:57.530Z] [ERROR] no such table: users {"action":"login","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:25:57.535Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"21ms","ip":"::1"}
+[2025-11-23T06:28:56.154Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:56.157Z] [ERROR] Error al verificar rate limiting {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:56.159Z] [ERROR] no such table: users {"action":"login","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:28:56.162Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"11ms","ip":"::1"}
+[2025-11-23T06:28:57.319Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:57.324Z] [ERROR] Error al verificar rate limiting {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:57.327Z] [ERROR] no such table: users {"action":"login","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:28:57.330Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"12ms","ip":"::1"}
+[2025-11-23T06:28:58.088Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:58.092Z] [ERROR] Error al verificar rate limiting {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:58.096Z] [ERROR] no such table: users {"action":"login","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:28:58.100Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"14ms","ip":"::1"}
+[2025-11-23T06:28:58.372Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:58.376Z] [ERROR] Error al verificar rate limiting {"error":"no such table: login_attempts"}
+[2025-11-23T06:28:58.379Z] [ERROR] no such table: users {"action":"login","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:28:58.384Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"15ms","ip":"::1"}
+[2025-11-23T06:29:09.447Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:29:09.451Z] [ERROR] Error al verificar rate limiting {"error":"no such table: login_attempts"}
+[2025-11-23T06:29:09.454Z] [ERROR] no such table: users {"action":"login","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:29:09.457Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"11ms","ip":"::1"}
+[2025-11-23T06:32:27.661Z] [ERROR] no such table: users {"action":"register","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.register [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:36:30)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:32:27.664Z] [ERROR] POST /api/auth/register - 500 {"method":"POST","url":"/api/auth/register","status":500,"duration":"6ms","ip":"::1"}
+[2025-11-23T06:32:37.044Z] [ERROR] no such table: users {"action":"register","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.register [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:36:30)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:32:37.048Z] [ERROR] POST /api/auth/register - 500 {"method":"POST","url":"/api/auth/register","status":500,"duration":"6ms","ip":"::1"}
+[2025-11-23T06:32:37.754Z] [ERROR] no such table: users {"action":"register","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.register [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:36:30)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:32:37.759Z] [ERROR] POST /api/auth/register - 500 {"method":"POST","url":"/api/auth/register","status":500,"duration":"7ms","ip":"::1"}
+[2025-11-23T06:32:38.199Z] [ERROR] no such table: users {"action":"register","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.register [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:36:30)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:32:38.205Z] [ERROR] POST /api/auth/register - 500 {"method":"POST","url":"/api/auth/register","status":500,"duration":"9ms","ip":"::1"}
+[2025-11-23T06:32:38.616Z] [ERROR] no such table: users {"action":"register","email":"owner@buhoeats.com","stack":"SqliteError: no such table: users\n    at Database.prepare (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\node_modules\\better-sqlite3\\lib\\methods\\wrappers.js:5:21)\n    at query (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\config\\database.js:70:29)\n    at Object.register [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:36:30)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T06:32:38.618Z] [ERROR] POST /api/auth/register - 500 {"method":"POST","url":"/api/auth/register","status":500,"duration":"4ms","ip":"::1"}
+[2025-11-23T06:38:59.506Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:38:59.511Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:38:59.518Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:38:59.520Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:38:59.521Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:38:59.524Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:38:59.526Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:38:59.530Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:38:59.543Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:41:24.431Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:41:24.435Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:41:24.437Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:41:24.438Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:41:24.439Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:41:24.440Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:41:24.440Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:41:24.441Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:41:24.448Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:41:25.065Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:41:25.071Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:41:25.075Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:41:25.077Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:41:25.078Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:41:25.080Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:41:25.081Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:41:25.082Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:41:25.092Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:42:22.459Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:42:22.465Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:42:22.467Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:22.471Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:22.472Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:42:22.473Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:42:22.475Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:42:22.477Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:42:22.485Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:42:23.205Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:42:23.208Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:42:23.211Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:23.213Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:23.215Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:42:23.218Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:42:23.220Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:42:23.222Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:42:23.233Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:42:52.977Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:42:52.980Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:42:52.982Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:52.983Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:52.984Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:42:52.985Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:42:52.986Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:42:52.987Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:42:52.994Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:42:53.672Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:42:53.674Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:42:53.676Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:53.677Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:42:53.678Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:42:53.679Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:42:53.680Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:42:53.681Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:42:53.690Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:45:48.160Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:45:48.163Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:45:48.165Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:45:48.167Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:45:48.167Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:45:48.169Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:45:48.169Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:45:48.171Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:45:48.177Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:45:48.976Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:45:48.980Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:45:48.984Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:45:48.986Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:45:48.988Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:45:48.990Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:45:48.992Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:45:48.995Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:45:49.002Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:48:58.600Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:48:58.604Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:48:58.607Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:48:58.608Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:48:58.609Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:48:58.610Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:48:58.611Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:48:58.612Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:48:58.618Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:48:59.326Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:48:59.330Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:48:59.335Z] [ERROR] Error al limpiar tokens expirados {"error":"no such table: token_blacklist"}
+[2025-11-23T06:48:59.337Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"no such table: token_blacklist"}
+[2025-11-23T06:48:59.338Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:48:59.339Z] [ERROR] Error al limpiar intentos antiguos {"error":"no such table: login_attempts"}
+[2025-11-23T06:48:59.340Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:48:59.341Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:48:59.350Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T06:49:00.938Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T06:49:00.943Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T06:49:00.945Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T06:49:00.947Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T06:49:00.949Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T06:49:00.950Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T06:49:00.952Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T06:49:00.955Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T06:49:00.968Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:20:12.141Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:20:12.144Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:20:12.144Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:20:12.145Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:20:12.146Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:20:12.147Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:20:12.147Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:20:12.148Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:20:12.152Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:20:12.550Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:20:12.552Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:20:12.553Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:20:12.554Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:20:12.554Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:20:12.555Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:20:12.556Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:20:12.557Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:20:12.561Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:20:45.836Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:20:45.839Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:20:45.840Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:20:45.841Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:20:45.842Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:20:45.843Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:20:45.844Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:20:45.845Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:20:45.851Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:20:46.599Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:20:46.605Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:20:46.606Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:20:46.607Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:20:46.609Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:20:46.610Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:20:46.610Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:20:46.614Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:20:46.624Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:26:41.755Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:26:41.758Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:26:41.759Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:26:41.760Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:26:41.760Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:26:41.761Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:26:41.762Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:26:41.763Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:26:41.774Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:26:42.305Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:26:42.308Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:26:42.308Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:26:42.309Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:26:42.310Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:26:42.311Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:26:42.311Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:26:42.312Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:26:42.317Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:33:54.326Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:33:54.329Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:33:54.330Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:33:54.331Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:33:54.331Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:33:54.332Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:33:54.333Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:33:54.334Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:33:54.338Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:34:29.158Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:34:29.161Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:34:29.162Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:34:29.162Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:34:29.163Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:34:29.164Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:34:29.164Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:34:29.165Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:34:29.169Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:34:29.462Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:34:29.464Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:34:29.465Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:34:29.466Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:34:29.467Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:34:29.467Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:34:29.468Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:34:29.469Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:34:29.473Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:38:24.050Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:38:24.053Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:38:24.054Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:38:24.055Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:38:24.055Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:38:24.056Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:38:24.057Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:38:24.058Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:38:24.064Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:38:24.698Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:38:24.702Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:38:24.703Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:38:24.704Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:38:24.704Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:38:24.705Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:38:24.706Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:38:24.707Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:38:24.712Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:38:51.507Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:38:51.508Z] [ERROR] Error al verificar rate limiting {"error":"query is not a function"}
+[2025-11-23T07:38:51.509Z] [ERROR] query is not a function {"action":"login","email":"owner@buhoeats.com","stack":"TypeError: query is not a function\n    at Object.login [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:140:23)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T07:38:51.512Z] [ERROR] POST /api/auth/login - 500 {"method":"POST","url":"/api/auth/login","status":500,"duration":"10ms","ip":"::1"}
+[2025-11-23T07:39:46.241Z] [ERROR] query is not a function {"action":"register","email":"owner@buhoeats.com","stack":"TypeError: query is not a function\n    at Object.register [as handler] (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\controllers\\authController.js:36:30)\n    at executeRoute (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\routes\\api.js:275:34)\n    at Server.requestHandler (C:\\Users\\Alex\\Desktop\\Buho-Eats-Backend (2)\\Buho-Eats-Backend\\server.js:236:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+[2025-11-23T07:39:46.243Z] [ERROR] POST /api/auth/register - 500 {"method":"POST","url":"/api/auth/register","status":500,"duration":"4ms","ip":"::1"}
+[2025-11-23T07:43:30.385Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:43:30.389Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:43:30.391Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:43:30.392Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:43:30.393Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:43:30.394Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:43:30.395Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:43:30.396Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:43:30.402Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:43:30.922Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:43:30.925Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:43:30.926Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:43:30.927Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:43:30.927Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:43:30.928Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:43:30.928Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:43:30.930Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:43:30.935Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:43:41.159Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:43:41.161Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:43:41.162Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:43:41.164Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:43:41.164Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:43:41.165Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:43:41.166Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:43:41.167Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:43:41.173Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:43:41.967Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:43:41.972Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:43:41.973Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:43:41.974Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:43:41.975Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:43:41.976Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:43:41.977Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:43:41.978Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:43:41.984Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:43:45.476Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:43:45.479Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:43:45.480Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:43:45.481Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:43:45.481Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:43:45.482Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:43:45.483Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:43:45.484Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:43:45.490Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:43:46.146Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:43:46.149Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:43:46.150Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:43:46.152Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:43:46.153Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:43:46.154Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:43:46.155Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:43:46.157Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:43:46.163Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:45:00.803Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:45:00.806Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:45:00.807Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:45:00.808Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:45:00.809Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:45:00.810Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:45:00.810Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:45:00.812Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:45:00.818Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:45:01.368Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:45:01.371Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:45:01.372Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:45:01.373Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:45:01.373Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:45:01.374Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:45:01.375Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:45:01.376Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:45:01.382Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:46:23.929Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:46:23.935Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:46:23.937Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:46:23.938Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:46:23.940Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:46:23.942Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:46:23.944Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:46:23.948Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:46:23.960Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:46:24.535Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:46:24.537Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:46:24.538Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:46:24.539Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:46:24.540Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:46:24.541Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:46:24.542Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:46:24.544Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:46:24.549Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:48:10.855Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:48:10.857Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:48:10.858Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:48:10.859Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:48:10.859Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:48:10.860Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:48:10.861Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:48:10.862Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:48:10.868Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:48:11.482Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:48:11.484Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:48:11.485Z] [ERROR] Error al limpiar tokens expirados {"error":"query is not a function"}
+[2025-11-23T07:48:11.486Z] [ERROR] Error al obtener estadísticas de blacklist {"error":"query is not a function"}
+[2025-11-23T07:48:11.488Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:48:11.489Z] [ERROR] Error al limpiar intentos antiguos {"error":"query is not a function"}
+[2025-11-23T07:48:11.489Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:48:11.491Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:48:11.497Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:48:18.625Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:48:18.628Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:48:18.632Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:48:18.633Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:48:18.634Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:48:18.641Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:48:45.788Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:48:45.791Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:48:45.793Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:48:45.794Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:48:45.796Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:48:45.802Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:48:46.124Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:48:46.126Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:48:46.127Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:48:46.129Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:48:46.130Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:48:46.135Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:49:01.748Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:49:01.752Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:49:01.753Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:49:01.754Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:49:01.755Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:49:01.761Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:49:02.257Z] [INFO] === Iniciando tareas de mantenimiento ===
+[2025-11-23T07:49:02.261Z] [INFO] Ejecutando limpieza de blacklist...
+[2025-11-23T07:49:02.262Z] [INFO] Ejecutando limpieza de intentos de login antiguos...
+[2025-11-23T07:49:02.263Z] [INFO] === Tareas de mantenimiento completadas ===
+[2025-11-23T07:49:02.265Z] [INFO] Tareas de mantenimiento programadas cada 1 hora(s)
+[2025-11-23T07:49:02.277Z] [INFO] Servidor iniciado {"port":3000}
+[2025-11-23T07:49:57.912Z] [WARN] Registro fallido: email ya existe {"email":"owner@buhoeats.com"}
+[2025-11-23T07:49:57.916Z] [WARN] POST /api/auth/register - 409 {"method":"POST","url":"/api/auth/register","status":409,"duration":"8ms","ip":"::1"}
+[2025-11-23T07:50:20.028Z] [WARN] Intento fallido: Login attempt {"action":"Login attempt","email":"owner@buhoeats.com","success":false,"ip":"::1"}
+[2025-11-23T07:50:20.029Z] [WARN] Login fallido: contraseña incorrecta {"email":"owner@buhoeats.com"}
+[2025-11-23T07:50:20.031Z] [WARN] POST /api/auth/login - 401 {"method":"POST","url":"/api/auth/login","status":401,"duration":"98ms","ip":"::1"}
+[2025-11-23T07:51:15.873Z] [INFO] Usuario registrado exitosamente {"userId":3,"email":"aliasgx0x0@gmail.com"}
+[2025-11-23T07:51:15.884Z] [INFO] POST /api/auth/register - 201 {"method":"POST","url":"/api/auth/register","status":201,"duration":"123ms","ip":"::1"}
+[2025-11-23T07:51:27.329Z] [INFO] Autenticación exitosa: Login attempt {"action":"Login attempt","email":"aliasgx0x0@gmail.com","success":true,"ip":"::1"}
+[2025-11-23T07:51:27.330Z] [INFO] Login exitoso {"userId":3,"email":"aliasgx0x0@gmail.com"}
+[2025-11-23T07:51:27.333Z] [INFO] POST /api/auth/login - 200 {"method":"POST","url":"/api/auth/login","status":200,"duration":"147ms","ip":"::1"}
+[2025-11-23T07:51:27.497Z] [INFO] Restaurantes obtenidos {"count":5,"total":5,"filters":{"searchTerm":"","cuisineType":"","minRating":0}}
+[2025-11-23T07:51:27.499Z] [INFO] GET /api/restaurants - 200 {"method":"GET","url":"/api/restaurants","status":200,"duration":"3ms","ip":"::1"}
+[2025-11-23T07:51:27.522Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"5ms","ip":"::1"}
+[2025-11-23T07:51:27.587Z] [INFO] GET /api/favorites - 200 {"method":"GET","url":"/api/favorites","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:51:27.703Z] [INFO] Restaurantes obtenidos {"count":4,"total":5,"filters":{"searchTerm":"","cuisineType":"","minRating":0}}
+[2025-11-23T07:51:27.707Z] [INFO] GET /api/restaurants?limit=4 - 200 {"method":"GET","url":"/api/restaurants?limit=4","status":200,"duration":"7ms","ip":"::1"}
+[2025-11-23T07:51:27.871Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"3ms","ip":"::1"}
+[2025-11-23T07:52:08.048Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:52:08.088Z] [INFO] Restaurante obtenido {"restaurantId":"1"}
+[2025-11-23T07:52:08.089Z] [INFO] GET /api/restaurants/1 - 200 {"method":"GET","url":"/api/restaurants/1","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:52:08.117Z] [INFO] Menú obtenido {"restaurantId":"1","count":168}
+[2025-11-23T07:52:08.120Z] [INFO] GET /api/menu?restaurantId=1&availableOnly=true - 200 {"method":"GET","url":"/api/menu?restaurantId=1&availableOnly=true","status":200,"duration":"6ms","ip":"::1"}
+[2025-11-23T07:52:08.152Z] [INFO] GET /api/favorites - 200 {"method":"GET","url":"/api/favorites","status":200,"duration":"1ms","ip":"::1"}
+[2025-11-23T07:52:08.198Z] [INFO] GET /api/favorites - 200 {"method":"GET","url":"/api/favorites","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:52:08.402Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:52:08.416Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:52:45.955Z] [INFO] Restaurantes obtenidos {"count":5,"total":5,"filters":{"searchTerm":"","cuisineType":"","minRating":0}}
+[2025-11-23T07:52:45.962Z] [INFO] GET /api/restaurants - 200 {"method":"GET","url":"/api/restaurants","status":200,"duration":"9ms","ip":"::1"}
+[2025-11-23T07:52:45.990Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"14ms","ip":"::1"}
+[2025-11-23T07:52:46.012Z] [INFO] GET /api/favorites - 200 {"method":"GET","url":"/api/favorites","status":200,"duration":"3ms","ip":"::1"}
+[2025-11-23T07:52:46.160Z] [INFO] Restaurantes obtenidos {"count":4,"total":5,"filters":{"searchTerm":"","cuisineType":"","minRating":0}}
+[2025-11-23T07:52:46.161Z] [INFO] GET /api/restaurants?limit=4 - 200 {"method":"GET","url":"/api/restaurants?limit=4","status":200,"duration":"2ms","ip":"::1"}
+[2025-11-23T07:52:46.361Z] [INFO] GET /api/users/profile - 200 {"method":"GET","url":"/api/users/profile","status":200,"duration":"2ms","ip":"::1"}
